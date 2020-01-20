@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <title>Skate Website</title>
+
+</head>
+
+<body>
+    <div class=" ui grid">
+        <nav class="ui top fixed menu">
+            <div class="item">
+                <a class="item" href="index.html"> <img src="images/logo.jpg" alt="logo image"></a>
+            </div>
+            <a class="item" href="sessions.html">Sessions</a>
+            <a class="item" href="shop.html">Shop</a>
+            <a class="item" href="aboutus.html">About us</a>
+        </nav>
+
+        <div class="ui two row grid">
+            <div class="ui row">
+                <h2 class="ui center aligned icon header">
+                    <br><br><br>
+                    <i class="circular id badge outline icon"></i>
+                    Become a member today.
+                </h2>
+            </div>
+            <div class="ui row">
+                <div class="ten wide centered column">
+                    <div class=" ui placeholder segment">
+                        <div class="ui two column very relaxed stackable grid">
+                            <div class="column">
+
+                                <form action="process.html" method="get" class="ui form " role="form">
+
+                                    <div class="required field">
+                                        <label>First Name</label>
+                                        <div class="ui left icon input">
+                                            <input type="text" placeholder="First name" pattern="[A-Z][a-z]+( [A-Z][a-z]+)*" autofocus>
+                                            <i class="user icon"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="required field">
+                                        <label>Second Name</label>
+                                        <div class="ui left icon input">
+                                            <input type="text" placeholder="Second name" pattern="[A-Z][a-z]+( [A-Z][a-z]+)*">
+                                            <i class="user icon"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="required field">
+                                        <label>Email</label>
+                                        <div class="ui left icon input">
+                                            <input type="email" id="email" required pattern="^[a-z0-9-]+(.[a-z0-9-]+)@[a-z0-9-]+(.[a-z0-9-]+)(.[a-z]{2,4})$">
+                                            <i class="envelope icon"></i>
+                                        </div>
+                                    </div>
+                                    <div class=" field">
+                                        <label>Contact Number</label>
+                                        <div class="ui left icon input">
+                                            <input type="text" pattern="^((\d{3})|\d{3})-?\d{6,9}$">
+                                            <i class="phone icon"></i>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+                                </form>
+                            </div>
+
+
+                            <div class="top aligned column">
+                                <h4>
+                                    <i class="signup icon"></i>
+                                    Sign Up with:
+                                </h4>
+                                <br><br>
+                                <a href="https://www.facebook.com/" class="ui big facebook button">
+                                    <i class="facebook icon"></i>
+                                    Facebook
+                                </a>
+                                <br>
+                                <a href="https://twitter.com/?lang=en" class="ui big twitter button">
+                                    <i class="twitter icon"></i>
+                                    Twitter
+                                </a>
+                                <br>
+                                <a href="https://support.google.com/plus/?hl=en" class="ui big google plus button">
+                                    <i class="google plus icon"></i>
+                                    Google Plus
+                               </a>
+                        
+                            </div>
+                        </div>
+
+                        <div class="ui vertical divider">
+                            Or
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center aligned ten wide  column">
+            <div class=" left aligned ui placeholder segment">
+                <h3 class="ui dividing header">Please take your time to fill in this form aswell .</h3>
+                <form action="process.html" method="get" class="ui form " role="form">
+
+                    <div class="center grouped fields">
+
+
+
+
+                        <div class=" required field">
+                            <select class="ui selection dropdown ">
+
+                                <option value="male">male</option>
+                                <option value="female">Female</option>
+
+                            </select>
+                        </div>
+
+                        <div class=" required inline field">
+                            <label class="ui four wide column">How old are you? </label>
+
+                            <input type="number" name="age">
+                            <p>years old</p>
+                        </div>
+
+
+
+
+
+                        <label>Please select one that best matches how comfortable you are with skateboarding</label>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="example2" checked="checked" id="100">
+                                <label for="100">I have never skated in my life.</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="example2" id="101">
+                                <label for="101">I know the basics but still need practice.</label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                                <input type="radio" name="example2" id="102">
+                                <label for="102">I feel comfortable and i just want to learn more</label>
+                            </div>
+                        </div>
+
+                        <div class="required  field">
+                            <label>How did you hear about us?</label>
+                            <textarea rows="2"></textarea>
+                        </div>
+
+                        <div class="required field">
+                            <div class=" ui slider checkbox">
+                                <input name="subscribe" type="checkbox">
+                                <label>I have read and accept the terms and conditons.</label>
+                            </div>
+                        </div>
+
+                        <br>
+
+
+
+                        <div class="ui blue submit button">Join</div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer class=" ui sixteen wide column" id="footer">
+
+            <p>Follow us on our social media apps: </p>
+
+            <br>
+
+            <button class="ui circular facebook icon button">
+                <i class="facebook icon"></i>
+            </button>
+            <button class="ui circular twitter icon button">
+                <i class="twitter icon"></i>
+            </button>
+            <button class="ui circular yellow icon button">
+                <i class="snapchat ghost icon"></i>
+            </button>
+            <button class="ui circular google plus icon button">
+                <i class="google plus icon"></i>
+            </button> <br><br>
+            <p>Telephone: 00898825 Email: skatespect@mail.com</p>
+            <p>This is a student project no information in here is accurate or true</p>
+
+
+        </footer>
+
+    </div>
+    <script>
+        $('.ui.checkbox')
+            .checkbox();
+
+    </script>
+    <script>
+        $('.ui.selection.dropdown').dropdown();
+
+    </script>
+    <script>
+        $('.ui.radio.checkbox')
+            .checkbox();
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+</body>
+
+</html>

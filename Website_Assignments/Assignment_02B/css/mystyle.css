@@ -1,0 +1,267 @@
+body{
+    
+}
+
+
+#backgroundimage1{
+	background-image: url(../images/background.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat-x;
+	
+	
+}
+#indexheading{
+    text-align: center;
+    color: white;
+    font-size: 90px
+}
+.ui.menu {
+  background-color: gray;
+}
+#gallerybackground{
+    background-color: #5B202A;
+}
+figcaption{
+	background-color: black;
+    text-align: center;
+}
+figure{
+	display: inline-block;
+	color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+li {
+	margin: 20px;
+	text-align: center;
+}
+#title{
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    margin:2em
+}
+#sessionsparagraph{
+    text-align: justify;
+    margin-right: 2em;
+    color: black;
+    font-size: 20px
+   
+    
+}
+.location{
+    color:black;
+    font-size: 50px;
+    margin:2em;
+    text-align: center;
+}
+span{
+    text-decoration: underline;
+    
+    
+   
+}
+
+
+
+.sessioncrew{
+    width:850px;
+    height: 500px;
+    margin-bottom: 2em;
+}
+#crewcontainer{
+    background-image: url(../images/team.jpg);
+    background-repeat: no-repeat;
+	background-size: 100%;
+   width: 500px;
+	height:280px;
+    border: 10px solid black;
+    border-radius: 20px;
+    float: left;
+	margin-left: 40px;
+	margin-bottom: 2em;
+	margin-right: 1em;
+    
+}
+#teampic{
+    background-image: url(../images/teampic.jpg);
+    background-repeat: no-repeat;
+   
+	
+    background-size: 100%;
+    height: 700px;
+    text-align: center;
+    
+   
+  
+}
+#teampictextbckgrd{
+    background-color: white;
+    
+    font-size: 40px;
+    margin: 15%;
+    text-align: center;
+}
+
+.hello{
+    background-color: #2E2F2F;
+    color:#F5AD28;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 2em;
+    
+   
+}
+.hellotitle{
+     background-color: #2E2F2F;
+    color:#F5AD28;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+#blackbackground{
+     background-image: url(../images/shop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    color:white;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 4em;
+}
+table{
+    margin-bottom: 10%;
+}
+th{
+    padding: 0.5em 4.5em ;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+#articleabout{
+  
+   
+    text-align: center;
+    overflow: hidden scroll;
+    font-size: 20px;
+}
+.brand_name{
+   float:right;
+    font-size: 20px;
+}
+
+#shoesimage{
+    
+    width:800px;
+    height:400px;
+    background-image: url(../images/shoes.jpg);
+    background-repeat: no-repeat;
+    padding: 60px;
+    
+    text-align: center;
+    
+
+  
+    
+    
+}
+#decksimage{
+    
+    width:600px;
+    height:400px;
+    background-image: url(../images/decks.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+     padding: 60px;
+    
+	
+ 
+    
+    
+}
+#saleimage{
+    
+    background-image: url(../images/xmasskate.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+    background-position: center;   
+    text-align: center;
+    color: darkred;
+    
+   
+    
+}
+#salecolor{
+    background-color: white;
+    background-size: 100%;
+    font-size: 70px;
+}
+.profileimages{
+     width: 200px;
+    height: 150px;
+   
+}
+.center{
+     margin-left: 18%;
+    margin-right: 18%;
+    display:inline-block;
+    
+}
+.items:hover{
+    background-color: black;
+    color: cyan;
+}
+
+.gallery{
+    height: 200px;
+    width: 300px;
+    border: 5px solid black;
+}
+
+#aside{
+    float:left;
+    background-color: azure;
+    margin-right:40px ;
+    padding:20px;
+     display: inline-block;
+   
+}
+.profilebackground{
+    background-color: white;
+    border-radius: 10px;
+    width:200px;
+    padding: 15px;
+    display: inline-block;
+    border: 4px solid black;
+    
+}
+#smimagesize{
+    width:200px;
+    height: 80px;
+    border-radius: 10px;
+}
+#footer{
+    color:aliceblue;
+    background-color: black;
+    text-align: center;
+    font-family:monospace, sans-serif;
+  
+}
+
+
+    
+
+td:hover{
+    background-color: #FEB729;
+    color: black;
+}
+.profilebackground:hover{
+    background-color: aquamarine;
+}
