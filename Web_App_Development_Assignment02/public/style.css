@@ -1,0 +1,91 @@
+
+1
+
+
+
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  
+}
+
+h1 {
+  font-family: "Impact Header", Times, serif;
+  color: white;
+  text-align: center;
+  background-color:black;
+  
+}
+
+
+.ui.menu .item {
+  background: black;
+   border: 2px solid red;
+  border-radius: 10px;
+  color: #FFFFFF;
+  margin-left: 1em;
+  padding: 0.3em 3.78571429em;
+}
+
+#shelf{
+  background-image:url("https://cdn.glitch.com/9daffbf4-c05c-4e92-ad42-03997090589a%2Fthumbnails%2Fb6tQmJ.jpg?1581778775064");
+  width:180px;
+  height:300px;
+
+  background-repeat: no-repeat;
+   text-align: center;
+  border-radius: 25px;
+  border: 2px solid brown;
+}
+
+.ui.button {
+  
+  margin: 0em 0.2em 0em 0em;
+  padding: 0.78571429em 1em 0.78571429em;
+  
+}
+
+.ui.message {
+   background-color:black;
+  
+  
+}
+
+#whatItIs{
+  display:none;
+
+  
+}
+
+
+#usage{
+  display:none;
+}
+
+#wallbackground{
+  background-image:url("https://cdn.glitch.com/9daffbf4-c05c-4e92-ad42-03997090589a%2Fthumbnails%2Fwoodwallpaper.jpg?1581791267768");
+  
+}
+
+#shelfbg{
+  background-image:url("https://cdn.glitch.com/f17c376d-fe07-46a3-84d5-a549c45b0cd7%2Fplank.jpg?v=1582761390200");
+    border-radius: 10px;
+  border: 2px solid brown;
+  
+}
+
+
+.shelftextbg{
+  background-color:white;
+  
+}
+
+#shelftexthead{
+ color:white;
+  
+}
+
+
+

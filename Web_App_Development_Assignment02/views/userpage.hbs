@@ -1,0 +1,28 @@
+{{>menu id="Users"}}
+<section class="ui center aligned middle aligned segment">
+  
+  <div class="ui centered card" >
+  <div class="image">
+    <img src= "https://cdn.glitch.com/9daffbf4-c05c-4e92-ad42-03997090589a%2Fthumbnails%2Fuser-1633249_1280.png?1581899592849">
+  </div>
+  <div class="content">
+    
+    <p class="header">Create New User</p>
+ 
+    
+{{>adduser}}
+    
+  </div>
+</div>
+  <p>
+    Users
+    <div class="ui centered cards">
+      {{#each users}}
+      
+      {{> user}}
+      
+  {{/each}}
+  </div>
+  </p>
+
+</section>

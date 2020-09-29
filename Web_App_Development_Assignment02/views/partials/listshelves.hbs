@@ -1,0 +1,26 @@
+
+  
+
+{{#each shelves}}
+
+  
+  <section class = "ui segment"  id="shelfbg">
+   <h2 id = "shelftexthead" class="ui centered header" >
+      {{title}}
+    </h2>
+    <p class="shelftextbg"> Description: {{description}} </p>
+
+
+     <a href="/shelf/deleteShelf/{{id}}" class="ui icon button">
+      <i class="icon trash"></i>
+    </a>
+         <a href="/items/{{id}}" class="ui icon button">
+      <i class="icon folder open"></i>
+    </a>
+  
+</section>
+
+
+{{/each}}
+
+  

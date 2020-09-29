@@ -1,0 +1,29 @@
+{
+  "shelves": [
+    {
+      "id": "dcb39723-61e6-438f-8f45-74d4b8b622b6",
+      "title": "Work",
+      "description": "Documents",
+      "items": [
+        {
+          "id": "4a57b12b-c58d-4696-b053-766df7294c30",
+          "name": "Tax 2019",
+          "value": "09",
+          "description": "files"
+        },
+        {
+          "id": "35eeeb10-3b3a-4aeb-94b0-e7be8185b7b8",
+          "name": "New files",
+          "value": "222",
+          "description": "20/00/02"
+        }
+      ]
+    },
+    {
+      "id": "7516873b-fe43-4812-b55c-fac677e845ce",
+      "title": "Holidays",
+      "description": "photos",
+      "items": []
+    }
+  ]
+}
