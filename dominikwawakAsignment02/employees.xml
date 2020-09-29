@@ -1,0 +1,22 @@
+<object-stream>
+  <list>
+    <models.Manager>
+      <hoursWorked>20.0</hoursWorked>
+      <hourlyRate>100.0</hourlyRate>
+      <firstName>Jerry</firstName>
+      <lastName>Sand</lastName>
+      <email>jerry@hotmail.com</email>
+      <phoneNumber>0896246665</phoneNumber>
+      <employeesInDep/>
+    </models.Manager>
+    <models.SalesWorker>
+      <hoursWorked>40.0</hoursWorked>
+      <hourlyRate>25.0</hourlyRate>
+      <firstName>John</firstName>
+      <lastName>Joe</lastName>
+      <email>jon@hon.com</email>
+      <phoneNumber>07837484575</phoneNumber>
+      <percentageBonus>0.0</percentageBonus>
+    </models.SalesWorker>
+  </list>
+</object-stream>
