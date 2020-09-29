@@ -1,0 +1,30 @@
+<object-stream>
+  <PartyList>
+    <parties>
+      <Party>
+        <partyName>Red</partyName>
+        <partyLeader>Yim</partyLeader>
+        <partyGenre>RIGHT</partyGenre>
+        <numLocalReps>22</numLocalReps>
+      </Party>
+      <Party>
+        <partyName>Green</partyName>
+        <partyLeader>Tom</partyLeader>
+        <partyGenre>LEFT</partyGenre>
+        <numLocalReps>99</numLocalReps>
+      </Party>
+      <Party>
+        <partyName>Blue</partyName>
+        <partyLeader>Tam</partyLeader>
+        <partyGenre>CENTRE</partyGenre>
+        <numLocalReps>101</numLocalReps>
+      </Party>
+      <Party>
+        <partyName>Orange</partyName>
+        <partyLeader>Jack</partyLeader>
+        <partyGenre>unknown</partyGenre>
+        <numLocalReps>99</numLocalReps>
+      </Party>
+    </parties>
+  </PartyList>
+</object-stream>
